@@ -1,0 +1,66 @@
+font:
+  size: 12.0
+  normal:
+    family: Roboto Mono Medium for Powerline
+    style: Medium
+  bold:
+    family: Roboto Mono for Powerline
+    style: Bold
+  italic:
+    family: Roboto Mono Medium for Powerline
+    style: Medium Italic
+  bold_italic:
+    family: Roboto Mono for Powerline
+    style: Bold Italic
+# Regular and Medium
+#  normal:
+#    family: Roboto Mono for Powerline
+#    style: Regular
+#  bold:
+#    family: Roboto Mono Medium for Powerline
+#    style: Medium
+#  italic:
+#    family: Roboto Mono for Powerline
+#    style: Italic
+#  bold_italic:
+#    family: Roboto Mono for Powerline
+#    style: Medium Italic
+# Medium and Bold
+window:
+  dimensions:
+    columns: 100
+    lines: 50
+#alt_send_esc: true
+colors:
+  # Default colors
+  primary:
+    #background: '0xfdf6e3' -- too white
+    #background: '0xf0e7bd' -- too yellow
+    background: '0xf7f0dc'
+    foreground: '0x000000'
+    # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xcb4b16'
+    green:   '0x266711'
+    yellow:  '0x715600'
+    blue:    '0x0606be'
+    magenta: '0x500b90'
+    cyan:    '0x00e5e8'
+    white:   '0xe5e5e5'
+
+  # Bright colors
+  bright:
+    black:   '0x555555'
+    red:     '0xcb4b16'
+    green:   '0x266711'
+    yellow:  '0x715600'
+    blue:    '0x0606be'
+    magenta: '0x500b90'
+    cyan:    '0x00e5e8'
+    white:   '0xffffff'
+
+key_bindings:
+  - { key: Delete,   mods: Shift,   action: Copy  }
+  - { key: Insert,   mods: Control, action: Copy  }
+  - { key: Insert,   mods: Shift,   action: Paste }
